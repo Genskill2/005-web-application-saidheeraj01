@@ -35,4 +35,3 @@ CREATE TABLE tags_pets (
        FOREIGN KEY (tag) references tag(id) ON DELETE CASCADE
 );
 
-       
