@@ -1,5 +1,4 @@
-
-    import datetime
+import datetime
 
 from flask import Blueprint
 
@@ -97,6 +96,5 @@ def edit(pid):
         conn.commit()
         conn.close()
         return redirect(url_for("pets.pet_info", pid=pid), 302)
-
-
+        
 
